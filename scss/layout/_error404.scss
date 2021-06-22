@@ -1,0 +1,18 @@
+.error404 {
+    font-family: 'Space Age';
+    color: #ece621;
+    @media screen and (max-width: 400px) {
+        font-size: 32px;
+    }
+}
+
+.error404-h3 {
+    color: #ece621;
+    @media screen and (max-width: 1001px) {
+        font-size: 24px;
+    }
+}
+
+.error404-background {
+    background-color: #212529;
+}

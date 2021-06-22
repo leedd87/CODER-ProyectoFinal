@@ -1,0 +1,44 @@
+/*CSS-INDEX--SECTION-1*/
+
+.section-1 {
+    background-image: url(../images/backgroundimagefix.jpg);
+}
+
+.section-1-bg {
+    background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/capita-header-bkg-wide.jpg?v=8145289462667383340);
+}
+
+h1 {
+    font-family: 'Space Age';
+    @include condicional (map-get($general, page-color-1));
+    @media screen and (max-width: 1001px) {
+        font-size: 1.5em;
+    }
+    @media screen and (min-width: 1402px) {
+        font-size: 3.5em;
+    }
+}
+
+
+/*CSS-INDEX--SECTION-2*/
+
+.section-2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/capita-header-bkg-wide.jpg?v=8145289462667383340);
+}
+
+.section-2-bg {
+    background-color: $bg-color;
+    border-radius: 10px;
+}
+
+
+/*CSS-INDEX--SECTION-3*/
+
+.text-carrusel {
+    color: map-get($general, page-color-1);
+}
+
+.carousel {
+    border-radius: 10px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/bkg-main.jpg);
+}

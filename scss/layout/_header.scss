@@ -1,0 +1,9 @@
+/*CSS--WEB--HEADER*/
+
+.nav-link {
+    color: map-get($general, page-color-1) !important;
+}
+
+.logo {
+    width: map-get($general, logo-width);
+}

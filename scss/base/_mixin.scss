@@ -1,0 +1,16 @@
+@mixin redes {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+}
+
+@mixin condicional ($colorIf) {
+    color: $colorIf;
+    @if $colorIf==map-get($general, page-color-1) {
+        text-shadow: 2px 2px 4px black;
+    }
+    @else {
+        text-shadow: none;
+    }
+}

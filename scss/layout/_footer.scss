@@ -1,0 +1,23 @@
+/*CSS--WEB--FOOTER*/
+
+.footer {
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+}
+
+.icono {
+    @include redes;
+}
+
+.footer-paragraph {
+    font-size: 11px;
+    color: map-get($general, page-color-3);
+}
+
+.logoFooter {
+    width: map-get($general, logo-width);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

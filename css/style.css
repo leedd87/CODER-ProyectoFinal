@@ -1,0 +1,173 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "Space Age";
+  src: url("../fonts/space_age/space age.ttf") format("truetype");
+  font-display: swap;
+}
+/*CSS--WEB--HEADER*/
+.nav-link {
+  color: #ece621 !important;
+}
+
+.logo {
+  width: 200px;
+}
+
+/*CSS--WEB--FOOTER*/
+.footer {
+  height: 150px;
+  bottom: 0;
+  width: 100%;
+}
+
+.icono {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+.footer-paragraph {
+  font-size: 11px;
+  color: whitesmoke;
+}
+
+.logoFooter {
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/*CSS-INDEX--SECTION-1*/
+.section-1 {
+  background-image: url(../images/backgroundimagefix.jpg);
+}
+
+.section-1-bg {
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/capita-header-bkg-wide.jpg?v=8145289462667383340);
+}
+
+h1 {
+  font-family: "Space Age";
+  color: #ece621;
+  text-shadow: 2px 2px 4px black;
+}
+@media screen and (max-width: 1001px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1402px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+/*CSS-INDEX--SECTION-2*/
+.section-2 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/capita-header-bkg-wide.jpg?v=8145289462667383340);
+}
+
+.section-2-bg {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/*CSS-INDEX--SECTION-3*/
+.text-carrusel {
+  color: #ece621;
+}
+
+.carousel {
+  border-radius: 10px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/bkg-main.jpg);
+}
+
+/*CSS--PAGE--PRODUCT*/
+@media screen and (max-width: 1000px) {
+  .producto-section div div div div img {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.producto-section div div div div div h5 {
+  font-weight: bold;
+}
+.producto-section div div div div div p {
+  font-size: 23px;
+}
+@media screen and (max-width: 1000px) {
+  .producto-section div div div div div p {
+    font-size: 16px;
+  }
+}
+.producto-section div div div div div a {
+  color: #ece621;
+  background-color: #212529;
+  border: black solid 1px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.producto-section div div div div div a:hover {
+  color: #212529;
+  background-color: #ece621;
+}
+@media screen and (max-width: 1000px) {
+  .producto-section {
+    background-color: #212529;
+  }
+}
+
+/*CSS--PAGE--VIDEOS*/
+.bg-video {
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/bkg-main.jpg);
+}
+
+.text-break {
+  width: 50px;
+  font-family: "Space Age";
+  color: #ece621;
+}
+
+.text-break-2 {
+  font-family: "Space Age";
+  color: #ece621;
+}
+
+.video {
+  height: 380px;
+}
+
+.error404 {
+  font-family: "Space Age";
+  color: #ece621;
+}
+@media screen and (max-width: 400px) {
+  .error404 {
+    font-size: 32px;
+  }
+}
+
+.error404-h3 {
+  color: #ece621;
+}
+@media screen and (max-width: 1001px) {
+  .error404-h3 {
+    font-size: 24px;
+  }
+}
+
+.error404-background {
+  background-color: #212529;
+}
+
+/*# sourceMappingURL=style.css.map */

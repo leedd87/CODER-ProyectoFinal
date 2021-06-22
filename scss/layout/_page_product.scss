@@ -1,0 +1,46 @@
+/*CSS--PAGE--PRODUCT*/
+
+.producto-section {
+    div {
+        div {
+            div {
+                div {
+                    img {
+                        @media screen and (max-width: 1000px) {
+                            width: 50%;
+                            height: auto;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                    div {
+                        h5 {
+                            font-weight: bold;
+                        }
+                        p {
+                            font-size: 23px;
+                            @media screen and (max-width: 1000px) {
+                                font-size: 16px;
+                            }
+                        }
+                        a {
+                            color: map-get($general, page-color-1);
+                            background-color: map-get($general, page-color-2);
+                            border: black solid 1px;
+                            margin-right: auto;
+                            margin-left: auto;
+                            display: block;
+                            &:hover {
+                                color: map-get($general, page-color-2);
+                                background-color: map-get($general, page-color-1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        background-color: #212529;
+    }
+}
