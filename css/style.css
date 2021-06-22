@@ -129,7 +129,7 @@ h1 {
 
 /*CSS--PAGE--VIDEOS*/
 .bg-video {
-  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/bkg-main.jpg);
+  border: solid black 1px;
 }
 
 .text-break {
@@ -144,7 +144,11 @@ h1 {
 }
 
 .video {
-  height: 380px;
+  height: 600px;
+}
+
+img {
+  width: 50%;
 }
 
 .error404 {
