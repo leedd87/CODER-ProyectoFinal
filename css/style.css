@@ -187,4 +187,36 @@ h6 {
   background-color: #212529;
 }
 
+/*CSS--PAGE--CONTACT*/
+.contact {
+  width: 100%;
+}
+
+.bg-contact {
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/bg-mothership-1.jpg?v=7969350217914580665%22);
+}
+
+.bg-form {
+  background-color: #212529;
+}
+
+.form-label {
+  color: #ece621;
+}
+
+.form-check {
+  color: #ece621;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #ece621;
+  border-color: #ece621;
+}
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: #212529;
+}
+
 /*# sourceMappingURL=style.css.map */
