@@ -10,23 +10,19 @@
 
 .bg-form {
     background-color: map-get($general, page-color-2);
-}
-
-.form-label {
-    color: map-get($general, page-color-1);
-}
-
-.form-check {
-    color: map-get($general, page-color-1);
-}
-
-.btn-primary {
-    color: map-get($general, page-color-2);
-    background-color: map-get($general, page-color-1);
-    border-color: map-get($general, page-color-1);
-    &:hover {
-        color: black;
-        background-color: white;
-        border-color: map-get($general, page-color-2);
+    form {
+        label {
+            color: map-get($general, page-color-1);
+        }
+        button {
+            color: map-get($general, page-color-2);
+            background-color: map-get($general, page-color-1);
+            border-color: map-get($general, page-color-1);
+            &:hover {
+                color: black;
+                background-color: white;
+                border-color: map-get($general, page-color-2);
+            }
+        }
     }
 }

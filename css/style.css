@@ -199,21 +199,15 @@ h6 {
 .bg-form {
   background-color: #212529;
 }
-
-.form-label {
+.bg-form form label {
   color: #ece621;
 }
-
-.form-check {
-  color: #ece621;
-}
-
-.btn-primary {
+.bg-form form button {
   color: #212529;
   background-color: #ece621;
   border-color: #ece621;
 }
-.btn-primary:hover {
+.bg-form form button:hover {
   color: black;
   background-color: white;
   border-color: #212529;
