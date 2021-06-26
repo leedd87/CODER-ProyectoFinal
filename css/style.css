@@ -12,6 +12,7 @@
 /*CSS--WEB--HEADER*/
 .nav-link {
   color: #ece621 !important;
+  font-family: "Space Age";
 }
 
 .logo {
@@ -82,6 +83,7 @@ h1 {
 /*CSS-INDEX--SECTION-3*/
 .text-carrusel {
   color: #ece621;
+  font-family: "Space Age";
 }
 
 .carousel {
@@ -129,13 +131,7 @@ h1 {
 
 /*CSS--PAGE--VIDEOS*/
 .bg-video {
-  border: solid black 1px;
-}
-
-.text-break {
-  width: 50px;
-  font-family: "Space Age";
-  color: #ece621;
+  background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/team-2020-21-bkg.png);
 }
 
 .text-break-2 {
@@ -146,9 +142,26 @@ h1 {
 .video {
   height: 600px;
 }
+@media screen and (max-width: 400px) {
+  .video {
+    height: 315px;
+  }
+}
 
 img {
   width: 50%;
+}
+
+.pro-text {
+  color: #ece621;
+  font-size: 2em;
+  font-family: "Space Age";
+}
+
+h6 {
+  color: #ece621;
+  font-size: 1em;
+  font-family: "Space Age";
 }
 
 .error404 {
