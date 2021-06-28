@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Lee, David</h1>
+<h1 align="center">Hi 👋, I'm Lee David</h1>
 <h3 align="center">A tech curious and frontend developer from Argentina</h3>
 
 - 🌱 I’m currently learning **all about developing**
