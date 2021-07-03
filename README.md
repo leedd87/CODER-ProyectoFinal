@@ -7,6 +7,8 @@
 
 - 📫 How to reach me **leedav87@gmail.com**
 
+- For all projects to work you have to <b>npm init<b>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/leedd87" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="leedd87" height="30" width="40" /></a>
