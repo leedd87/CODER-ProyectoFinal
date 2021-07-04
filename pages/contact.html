@@ -75,39 +75,29 @@
         <!--SECTION-2--FORM-->
         <section class="bg-form py-1 my-2">
             <div id="contacto" class="container my-5">
-                <form class="row g-3">
+                <form action="enviar.php" method="POST" name="contact-form" class="row g-3">
                     <div class="col-12">
                         <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <input type="email" class="form-control" id="inputEmail4" name="email">
                     </div>
                     <div class="col-12">
                         <label for="inputAddress" class="form-label">Dirección</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Avenida Siempreviva 742">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Avenida Siempreviva 742" name="direccion">
                     </div>
                     <div class="col-md-6">
                         <label for="inputCity" class="form-label">Ciudad</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" class="form-control" id="inputCity" name="ciudad">
                     </div>
                     <div class="col-md-4">
                         <label for="inputState" class="form-label">Provincia</label>
-                        <select id="inputState" class="form-select">
-                            <option selected>Elegir...</option>
-                            <option>...</option>
-                        </select>
+                        <input type="text" class="form-control" id="inputState" name="provincia">
                     </div>
                     <div class="col-md-2">
                         <label for="inputZip" class="form-label">Código Postal</label>
-                        <input type="text" class="form-control" id="inputZip">
+                        <input type="text" class="form-control" id="inputZip" name="codigo-postal">
                     </div>
                     <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                            Acepto recibir noticias sobre los productos</label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary" value="enviar">Enviar</button>
                     </div>
                 </form>
             </div>
