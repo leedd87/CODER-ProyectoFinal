@@ -79,7 +79,7 @@ h1 {
 .section-2 {
   background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/capita-header-bkg-wide.jpg?v=8145289462667383340);
 }
-.section-2 div div div img {
+.section-2 img {
   width: 40%;
 }
 
@@ -105,25 +105,25 @@ h1 {
 
 /*CSS--PAGE--PRODUCT*/
 @media screen and (max-width: 1000px) {
-  .producto-section div div div div img {
+  .producto-section div img {
     width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
   }
 }
-.producto-section div div div div div h5 {
+.producto-section div div h5 {
   font-weight: bold;
 }
-.producto-section div div div div div p {
+.producto-section div div p {
   font-size: 23px;
 }
 @media screen and (max-width: 1000px) {
-  .producto-section div div div div div p {
+  .producto-section div div p {
     font-size: 16px;
   }
 }
-.producto-section div div div div div a {
+.producto-section div div a {
   color: #ece621;
   background-color: #212529;
   border: black solid 1px;
@@ -131,7 +131,7 @@ h1 {
   margin-left: auto;
   display: block;
 }
-.producto-section div div div div div a:hover {
+.producto-section div div a:hover {
   color: #212529;
   background-color: #ece621;
 }
