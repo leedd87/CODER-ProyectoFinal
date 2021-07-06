@@ -6,13 +6,22 @@
     width: 100%;
 }
 
+footer {
+    div {
+        a {
+            color: black;
+        }
+    }
+}
+
 .icono {
     @include redes;
 }
 
 .footer-paragraph {
     font-size: 11px;
-    color: map-get($general, page-color-3);
+    color: map-get($general, page-color-1);
+    font-family: 'Space Age';
 }
 
 .logoFooter {
