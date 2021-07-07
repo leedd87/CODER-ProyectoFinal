@@ -108,9 +108,6 @@ h1 {
 }
 
 /*CSS--PAGE--PRODUCT*/
-.producto-section div img {
-  width: 40%;
-}
 @media screen and (max-width: 1000px) {
   .producto-section div img {
     width: 50%;
