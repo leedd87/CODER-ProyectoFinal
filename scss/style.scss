@@ -1,22 +1,26 @@
-    * {
-        font-family: 'Noto Sans', sans-serif;
-        box-sizing: border-box;
-        user-select: none;
-    }
-    
-    @font-face {
-        font-family: 'Space Age';
-        src: url('../fonts/space_age/space\ age.ttf') format('truetype');
-        font-display: swap;
-    }
-    
-    @import 'base/variables';
-    @import 'base/mixin';
-    @import 'base/maps';
-    @import 'layout/header';
-    @import 'layout/footer';
-    @import 'layout/main_index';
-    @import 'layout/page_product';
-    @import 'layout/page_videos';
-    @import 'layout/error404';
-    @import 'layout/page_contact';
+* {
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+a {
+    cursor: url(../images/png-transparent-snowboarding-skiing-snowboard-angle-sport-sticker.png), auto;
+}
+
+@font-face {
+    font-family: 'Space Age';
+    src: url('../fonts/space_age/space\ age.ttf') format('truetype');
+    font-display: swap;
+}
+
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/maps';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/main_index';
+@import 'layout/page_product';
+@import 'layout/page_videos';
+@import 'layout/error404';
+@import 'layout/page_contact';

@@ -4,6 +4,10 @@
   user-select: none;
 }
 
+a {
+  cursor: url(../images/png-transparent-snowboarding-skiing-snowboard-angle-sport-sticker.png), auto;
+}
+
 @font-face {
   font-family: "Space Age";
   src: url("../fonts/space_age/space age.ttf") format("truetype");
@@ -104,6 +108,9 @@ h1 {
 }
 
 /*CSS--PAGE--PRODUCT*/
+.producto-section div img {
+  width: 40%;
+}
 @media screen and (max-width: 1000px) {
   .producto-section div img {
     width: 50%;
