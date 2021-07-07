@@ -2,6 +2,9 @@
 
 .bg-video {
     background-image: url(https://cdn.shopify.com/s/files/1/0231/7366/0752/t/9/assets/team-2020-21-bkg.png);
+    img {
+        max-width: 250px;
+    }
 }
 
 .text-break-2 {
@@ -14,10 +17,6 @@
     @media screen and (max-width: 400px) {
         height: 315px;
     }
-}
-
-img {
-    width: 50%;
 }
 
 .pro-text {
